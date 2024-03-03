@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    background-color: #262626;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+.green-button{
+    background-color: #8257e4;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    opacity: 0.7;
+}
+
+
+.green-button:hover{
+    cursor: pointer;
+    opacity: 1;
+}   
+
+
+
+.red-button{
+    background-color: #8f8c8c;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    opacity: 0.7;
+}
+
+
+.red-button:hover{
+    cursor: pointer;
+    opacity: 1;
+} 
+
+
