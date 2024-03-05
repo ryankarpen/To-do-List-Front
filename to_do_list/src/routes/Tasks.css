@@ -25,29 +25,10 @@
     position: relative;
     gap: 2rem;
     min-width: 200px;
-    max-width: 300px;
     padding: 1rem;
     border-radius: 10px;
     transition: 1s;
 }
-
-
-
-.task-component:after{
-    position: absolute;
-    content: '';
-    right: 0;
-    bottom: 0;
-}
-
-
-
-.task-component:hover:after{
-    transition-duration: 1s;
-    border-left: 50px solid rgba(0, 0, 0, 0.284);
-    border-bottom: 50px solid #262626 ;
-    border-radius: 10px 0px;
-}  
 
 
 
@@ -69,7 +50,7 @@
 .options{
     display: none;
     position: absolute;
-    top: 1rem;
+    bottom: 1rem;
     right: 1rem;
 }
 
@@ -79,6 +60,13 @@
     margin-right: 10px;
     width: 30px;
     height: 30px;
+    opacity: 0.7;
+}
+
+
+
+.options svg:hover{
+    opacity: 1;
 }
 
 
