@@ -13,8 +13,8 @@ const FormTask = () => {
 
   const [name, setName] = useState("")
   const [description, setDescription] = useState("")
-  const [rating, setRating] = useState("")
-  const [color, setColor] = useState("")
+  const [rating, setRating] = useState("very_important")
+  const [color, setColor] = useState("#000")
 
 
   const data: FormType = {
