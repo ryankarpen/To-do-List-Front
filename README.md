@@ -3,5 +3,5 @@ Tecnologias utilizadas:
 
 - React Js
 - Typescript
-- MongoDB Atlas
+
 
